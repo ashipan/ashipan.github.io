@@ -1,5 +1,65 @@
+@charset "utf-8";
+
+/* common */
+
 h1 {
     color: red;
-    font-size: 12px;
-    
+    font-size: 48px;
+    text-align: center;
+    font-weight: normal;
 }
+
+p {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+#header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+}
+
+#header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#header .site-title {
+    padding: 20px 16px;
+    line-height: 1px;
+}
+
+#header .site-title a {
+    display: inline-block;
+}
+
+#navi {
+    background-color: #333;
+}
+
+#navi a {
+    color: #fff;
+}
+
+#navi ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navi li {
+    font-size: 0.875rem;
+    padding: 10px 60px 10px 0;
+}
+
+/* main */
+
+/* footer */
